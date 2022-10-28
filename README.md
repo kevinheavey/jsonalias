@@ -27,7 +27,20 @@ This alias should probably get added to the Python `typing` module.
 If it does and I haven't put a big notice on this README,
 please open a PR.
 
+## Example
+
+```python
+from jsontype import Json
+
+d: Json = {"foo": ["bar", {"x": "y"}]}
+```
+
 ## It's not working please help???
 
 Make sure you're using mypy >= 0.981 and running with the
 `--enable-recursive-aliases` flag.
+
+## Special Thanks
+
+GitHub user wbolster for [this comment](https://github.com/python/typing/issues/182#issuecomment-1259412066)
+notifying us that mypy could now do JSON.
