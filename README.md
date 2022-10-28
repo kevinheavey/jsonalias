@@ -1,4 +1,4 @@
-# jsontype
+# jsonalias
 
 A microlibrary that defines a `Json` type alias for Python.
 
@@ -30,7 +30,7 @@ please open a PR.
 ## Example
 
 ```python
-from jsontype import Json
+from jsonalias import Json
 
 d: Json = {"foo": ["bar", {"x": "y"}]}
 ```

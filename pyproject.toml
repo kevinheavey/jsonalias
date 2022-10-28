@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jsontype"
+name = "jsonalias"
 version = "0.1.0"
 description = "A microlibrary that defines a Json type alias for Python."
 authors = ["Kevin Heavey <ID+username@users.noreply.github.com>"]
