@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "jsonalias"
-version = "0.1.1"
+version = "0.1.2"
 description = "A microlibrary that defines a Json type alias for Python."
 authors = ["Kevin Heavey <ID+username@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kevinheavey/jsonalias"
 
 [tool.poetry.dependencies]
 python = "^3.7"
